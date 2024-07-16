@@ -112,13 +112,23 @@ nav >ul {
     height: 300px;
 }
 @media only screen and (max-width: 576px) {
+    .logo {
+        padding-bottom: 10px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
     .hero-content {
         padding: 10px;
         width: 300px;
         text-wrap: wrap;
     }
     .banner {
-        width: 380px;
+        width: 350px;
         height: auto;
     }
     .quick-list {
@@ -137,7 +147,7 @@ nav >ul {
         height: 150px;
     }
     .menu {
-        margin-right: 10px;
+        margin-right: 8px;
     }
     .quick-content {
         display: flex;
@@ -154,7 +164,7 @@ nav >ul {
     }
     
 }
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+@media only screen and (min-width: 740px) and (max-width: 991.98px) {
     .menu {
         margin-right: 10px;
     }
@@ -164,7 +174,7 @@ nav >ul {
         text-wrap: wrap;
     }
     .banner {
-        width: 800px;
+        width: 700px;
         height: auto;
     }
     .quick-list {
